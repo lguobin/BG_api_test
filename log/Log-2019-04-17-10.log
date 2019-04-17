@@ -1,0 +1,136 @@
+[2019-04-17 10:17:05.672600] INFO: interface_Test: 运行时间: 2019/04/17_10:17:05
+[2019-04-17 10:17:05.674600] INFO: interface_Test: 当前模块: 保存测试用例文件
+[2019-04-17 10:17:05.674600] INFO: interface_Test: 全部args参数参数信息: , ('C:\\1\\api_automation_test-master\\BG_api_test\\test_case_data\\case.xlsx',)
+[2019-04-17 10:17:05.676600] INFO: interface_Test: 全部kwargs参数信息: , {}
+[2019-04-17 10:17:05.682600] INFO: interface_Test: 运行时间: 2019/04/17_10:17:05
+[2019-04-17 10:17:05.683600] INFO: interface_Test: 当前模块: ******** __main__ ********
+[2019-04-17 10:17:05.684600] INFO: interface_Test: 全部args参数参数信息: , ()
+[2019-04-17 10:17:05.685600] INFO: interface_Test: 全部kwargs参数信息: , {}
+[2019-04-17 10:17:05.685600] INFO: interface_Test: 运行时间: 2019/04/17_10:17:05
+[2019-04-17 10:17:05.686600] INFO: interface_Test: 当前模块: 保存测试用例文件
+[2019-04-17 10:17:05.687600] INFO: interface_Test: 全部args参数参数信息: , ('C:\\1\\api_automation_test-master\\BG_api_test\\test_case_data\\case.xlsx',)
+[2019-04-17 10:17:05.689600] INFO: interface_Test: 全部kwargs参数信息: , {}
+[2019-04-17 10:17:05.691600] INFO: interface_Test: 运行时间: 2019/04/17_10:17:05
+[2019-04-17 10:17:05.692600] INFO: interface_Test: 当前模块: ******** test_case_data.case ********
+[2019-04-17 10:17:05.693600] INFO: interface_Test: 全部args参数参数信息: , ()
+[2019-04-17 10:17:05.694600] INFO: interface_Test: 全部kwargs参数信息: , {}
+[2019-04-17 10:17:05.695600] INFO: interface_Test: 运行时间: 2019/04/17_10:17:05
+[2019-04-17 10:17:05.695600] INFO: interface_Test: 当前模块: ******** Public.requests ********
+[2019-04-17 10:17:05.696600] INFO: interface_Test: 全部args参数参数信息: , ()
+[2019-04-17 10:17:05.697600] INFO: interface_Test: 全部kwargs参数信息: , {'url': 'https://127.0.0.1/login', 'key': 'A', 'connent': '{}', 'method': 'get'}
+[2019-04-17 10:17:06.702600] INFO: interface_Test: get请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003ACA9B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+[2019-04-17 10:17:06.706600] WARNING: interface_Test: code=2002
+[2019-04-17 10:17:06.707600] WARNING: interface_Test: {'code': 1, 'result': "get请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003ACA9B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))"}
+[2019-04-17 10:17:06.710600] INFO: interface_Test: 运行时间: 2019/04/17_10:17:06
+[2019-04-17 10:17:06.710600] INFO: interface_Test: 当前模块: 写入返回值
+[2019-04-17 10:17:06.711600] INFO: interface_Test: 全部args参数参数信息: , ('C:\\1\\api_automation_test-master\\BG_api_test\\test_case_data\\case.xlsx', 1.0, "get请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003ACA9B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))")
+[2019-04-17 10:17:06.715600] INFO: interface_Test: 全部kwargs参数信息: , {}
+[2019-04-17 10:17:06.721600] INFO: interface_Test: inputdata> 参数:{}, url:https://127.0.0.1/login ,返回:{'code': 1, 'result': "get请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003ACA9B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))"},预期:code=2002
+[2019-04-17 10:17:06.726600] INFO: interface_Test: 失败重试中
+[2019-04-17 10:17:06.727600] INFO: interface_Test: 运行时间: 2019/04/17_10:17:06
+[2019-04-17 10:17:06.727600] INFO: interface_Test: 当前模块: ******** Public.requests ********
+[2019-04-17 10:17:06.728600] INFO: interface_Test: 全部args参数参数信息: , ()
+[2019-04-17 10:17:06.729600] INFO: interface_Test: 全部kwargs参数信息: , {'url': 'https://127.0.0.1/login', 'key': 'A', 'connent': '{}', 'method': 'get'}
+[2019-04-17 10:17:07.733600] INFO: interface_Test: get请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B90FD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+[2019-04-17 10:17:07.737600] WARNING: interface_Test: code=2002
+[2019-04-17 10:17:07.738600] WARNING: interface_Test: {'code': 1, 'result': "get请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B90FD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))"}
+[2019-04-17 10:17:07.741600] INFO: interface_Test: 运行时间: 2019/04/17_10:17:07
+[2019-04-17 10:17:07.741600] INFO: interface_Test: 当前模块: 写入返回值
+[2019-04-17 10:17:07.742600] INFO: interface_Test: 全部args参数参数信息: , ('C:\\1\\api_automation_test-master\\BG_api_test\\test_case_data\\case.xlsx', 1.0, "get请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B90FD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))")
+[2019-04-17 10:17:07.747600] INFO: interface_Test: 全部kwargs参数信息: , {}
+[2019-04-17 10:17:07.750600] INFO: interface_Test: inputdata> 参数:{}, url:https://127.0.0.1/login ,返回:{'code': 1, 'result': "get请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B90FD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))"},预期:code=2002
+[2019-04-17 10:17:07.754600] INFO: interface_Test: 失败重试中次数用完，最后结果
+[2019-04-17 10:17:07.755600] INFO: interface_Test: 运行时间: 2019/04/17_10:17:07
+[2019-04-17 10:17:07.756600] INFO: interface_Test: 当前模块: ******** Public.requests ********
+[2019-04-17 10:17:07.757600] INFO: interface_Test: 全部args参数参数信息: , ()
+[2019-04-17 10:17:07.758600] INFO: interface_Test: 全部kwargs参数信息: , {'url': 'https://127.0.0.1/login', 'key': 'B', 'connent': '{"name":"132","passwd":"123456"}', 'method': 'post'}
+[2019-04-17 10:17:08.761600] INFO: interface_Test: post请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003BBE9E8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+[2019-04-17 10:17:08.765600] WARNING: interface_Test: 1l=1
+[2019-04-17 10:17:08.766600] WARNING: interface_Test: {'code': 1, 'result': "post请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003BBE9E8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))"}
+[2019-04-17 10:17:08.769600] INFO: interface_Test: 运行时间: 2019/04/17_10:17:08
+[2019-04-17 10:17:08.770600] INFO: interface_Test: 当前模块: 写入返回值
+[2019-04-17 10:17:08.771600] INFO: interface_Test: 全部args参数参数信息: , ('C:\\1\\api_automation_test-master\\BG_api_test\\test_case_data\\case.xlsx', 2.0, "post请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003BBE9E8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))")
+[2019-04-17 10:17:08.775600] INFO: interface_Test: 全部kwargs参数信息: , {}
+[2019-04-17 10:17:08.779600] INFO: interface_Test: inputdata> 参数:{"name":"132","passwd":"123456"}, url:https://127.0.0.1/login ,返回:{'code': 1, 'result': "post请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003BBE9E8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))"},预期:1l=1
+[2019-04-17 10:17:08.784600] INFO: interface_Test: 失败重试中
+[2019-04-17 10:17:08.785600] INFO: interface_Test: 运行时间: 2019/04/17_10:17:08
+[2019-04-17 10:17:08.786600] INFO: interface_Test: 当前模块: ******** Public.requests ********
+[2019-04-17 10:17:08.786600] INFO: interface_Test: 全部args参数参数信息: , ()
+[2019-04-17 10:17:08.787600] INFO: interface_Test: 全部kwargs参数信息: , {'url': 'https://127.0.0.1/login', 'key': 'B', 'connent': '{"name":"132","passwd":"123456"}', 'method': 'post'}
+[2019-04-17 10:17:09.793600] INFO: interface_Test: post请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003BE15C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+[2019-04-17 10:17:09.797600] WARNING: interface_Test: 1l=1
+[2019-04-17 10:17:09.798600] WARNING: interface_Test: {'code': 1, 'result': "post请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003BE15C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))"}
+[2019-04-17 10:17:09.801600] INFO: interface_Test: 运行时间: 2019/04/17_10:17:09
+[2019-04-17 10:17:09.802600] INFO: interface_Test: 当前模块: 写入返回值
+[2019-04-17 10:17:09.802600] INFO: interface_Test: 全部args参数参数信息: , ('C:\\1\\api_automation_test-master\\BG_api_test\\test_case_data\\case.xlsx', 2.0, "post请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003BE15C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))")
+[2019-04-17 10:17:09.807600] INFO: interface_Test: 全部kwargs参数信息: , {}
+[2019-04-17 10:17:09.810600] INFO: interface_Test: inputdata> 参数:{"name":"132","passwd":"123456"}, url:https://127.0.0.1/login ,返回:{'code': 1, 'result': "post请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003BE15C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))"},预期:1l=1
+[2019-04-17 10:17:09.815600] INFO: interface_Test: 失败重试中次数用完，最后结果
+[2019-04-17 10:44:04.165600] INFO: interface_Test: 运行时间: 2019/04/17_10:44:04
+[2019-04-17 10:44:04.166600] INFO: interface_Test: 当前模块: 保存测试用例文件
+[2019-04-17 10:44:04.168600] INFO: interface_Test: 全部args参数参数信息: , ('C:\\1\\api_automation_test-master\\BG_api_test\\test_case_data\\case.xlsx',)
+[2019-04-17 10:44:04.170600] INFO: interface_Test: 全部kwargs参数信息: , {}
+[2019-04-17 10:44:04.176600] INFO: interface_Test: 运行时间: 2019/04/17_10:44:04
+[2019-04-17 10:44:04.178600] INFO: interface_Test: 当前模块: ******** __main__ ********
+[2019-04-17 10:44:04.179600] INFO: interface_Test: 全部args参数参数信息: , ()
+[2019-04-17 10:44:04.181600] INFO: interface_Test: 全部kwargs参数信息: , {}
+[2019-04-17 10:44:04.182600] INFO: interface_Test: 运行时间: 2019/04/17_10:44:04
+[2019-04-17 10:44:04.183600] INFO: interface_Test: 当前模块: 保存测试用例文件
+[2019-04-17 10:44:04.185600] INFO: interface_Test: 全部args参数参数信息: , ('C:\\1\\api_automation_test-master\\BG_api_test\\test_case_data\\case.xlsx',)
+[2019-04-17 10:44:04.189600] INFO: interface_Test: 全部kwargs参数信息: , {}
+[2019-04-17 10:44:04.192600] INFO: interface_Test: 运行时间: 2019/04/17_10:44:04
+[2019-04-17 10:44:04.193600] INFO: interface_Test: 当前模块: ******** test_case_data.case ********
+[2019-04-17 10:44:04.195600] INFO: interface_Test: 全部args参数参数信息: , ()
+[2019-04-17 10:44:04.196600] INFO: interface_Test: 全部kwargs参数信息: , {}
+[2019-04-17 10:44:04.198600] INFO: interface_Test: 运行时间: 2019/04/17_10:44:04
+[2019-04-17 10:44:04.199600] INFO: interface_Test: 当前模块: ******** Public.requests ********
+[2019-04-17 10:44:04.201600] INFO: interface_Test: 全部args参数参数信息: , ()
+[2019-04-17 10:44:04.202600] INFO: interface_Test: 全部kwargs参数信息: , {'url': 'https://127.0.0.1/login', 'key': 'A', 'connent': '{}', 'method': 'get'}
+[2019-04-17 10:44:05.207600] INFO: interface_Test: get请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B4EE48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+[2019-04-17 10:44:05.212600] WARNING: interface_Test: code=2002
+[2019-04-17 10:44:05.213600] WARNING: interface_Test: {'code': 1, 'result': "get请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B4EE48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))"}
+[2019-04-17 10:44:05.217600] INFO: interface_Test: 运行时间: 2019/04/17_10:44:05
+[2019-04-17 10:44:05.218600] INFO: interface_Test: 当前模块: 写入返回值
+[2019-04-17 10:44:05.219600] INFO: interface_Test: 全部args参数参数信息: , ('C:\\1\\api_automation_test-master\\BG_api_test\\test_case_data\\case.xlsx', 1.0, "get请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B4EE48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))")
+[2019-04-17 10:44:05.225600] INFO: interface_Test: 全部kwargs参数信息: , {}
+[2019-04-17 10:44:05.230600] INFO: interface_Test: inputdata> 参数:{}, url:https://127.0.0.1/login ,返回:{'code': 1, 'result': "get请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B4EE48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))"},预期:code=2002
+[2019-04-17 10:44:05.235600] INFO: interface_Test: 失败重试中
+[2019-04-17 10:44:05.236600] INFO: interface_Test: 运行时间: 2019/04/17_10:44:05
+[2019-04-17 10:44:05.237600] INFO: interface_Test: 当前模块: ******** Public.requests ********
+[2019-04-17 10:44:05.239600] INFO: interface_Test: 全部args参数参数信息: , ()
+[2019-04-17 10:44:05.240600] INFO: interface_Test: 全部kwargs参数信息: , {'url': 'https://127.0.0.1/login', 'key': 'A', 'connent': '{}', 'method': 'get'}
+[2019-04-17 10:44:06.239600] INFO: interface_Test: get请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B92160>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+[2019-04-17 10:44:06.244600] WARNING: interface_Test: code=2002
+[2019-04-17 10:44:06.246600] WARNING: interface_Test: {'code': 1, 'result': "get请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B92160>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))"}
+[2019-04-17 10:44:06.251600] INFO: interface_Test: 运行时间: 2019/04/17_10:44:06
+[2019-04-17 10:44:06.253600] INFO: interface_Test: 当前模块: 写入返回值
+[2019-04-17 10:44:06.254600] INFO: interface_Test: 全部args参数参数信息: , ('C:\\1\\api_automation_test-master\\BG_api_test\\test_case_data\\case.xlsx', 1.0, "get请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B92160>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))")
+[2019-04-17 10:44:06.262600] INFO: interface_Test: 全部kwargs参数信息: , {}
+[2019-04-17 10:44:06.267600] INFO: interface_Test: inputdata> 参数:{}, url:https://127.0.0.1/login ,返回:{'code': 1, 'result': "get请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B92160>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))"},预期:code=2002
+[2019-04-17 10:44:06.274600] INFO: interface_Test: 失败重试中次数用完，最后结果
+[2019-04-17 10:44:06.275600] INFO: interface_Test: 运行时间: 2019/04/17_10:44:06
+[2019-04-17 10:44:06.277600] INFO: interface_Test: 当前模块: ******** Public.requests ********
+[2019-04-17 10:44:06.279600] INFO: interface_Test: 全部args参数参数信息: , ()
+[2019-04-17 10:44:06.280600] INFO: interface_Test: 全部kwargs参数信息: , {'url': 'https://127.0.0.1/login', 'key': 'B', 'connent': '{"name":"132","passwd":"123456"}', 'method': 'post'}
+[2019-04-17 10:44:07.291600] INFO: interface_Test: post请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B9BA90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+[2019-04-17 10:44:07.298600] WARNING: interface_Test: 1l=1
+[2019-04-17 10:44:07.299600] WARNING: interface_Test: {'code': 1, 'result': "post请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B9BA90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))"}
+[2019-04-17 10:44:07.305600] INFO: interface_Test: 运行时间: 2019/04/17_10:44:07
+[2019-04-17 10:44:07.306600] INFO: interface_Test: 当前模块: 写入返回值
+[2019-04-17 10:44:07.307600] INFO: interface_Test: 全部args参数参数信息: , ('C:\\1\\api_automation_test-master\\BG_api_test\\test_case_data\\case.xlsx', 2.0, "post请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B9BA90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))")
+[2019-04-17 10:44:07.314600] INFO: interface_Test: 全部kwargs参数信息: , {}
+[2019-04-17 10:44:07.318600] INFO: interface_Test: inputdata> 参数:{"name":"132","passwd":"123456"}, url:https://127.0.0.1/login ,返回:{'code': 1, 'result': "post请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B9BA90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))"},预期:1l=1
+[2019-04-17 10:44:07.324600] INFO: interface_Test: 失败重试中
+[2019-04-17 10:44:07.325600] INFO: interface_Test: 运行时间: 2019/04/17_10:44:07
+[2019-04-17 10:44:07.327600] INFO: interface_Test: 当前模块: ******** Public.requests ********
+[2019-04-17 10:44:07.329600] INFO: interface_Test: 全部args参数参数信息: , ()
+[2019-04-17 10:44:07.331600] INFO: interface_Test: 全部kwargs参数信息: , {'url': 'https://127.0.0.1/login', 'key': 'B', 'connent': '{"name":"132","passwd":"123456"}', 'method': 'post'}
+[2019-04-17 10:44:08.335600] INFO: interface_Test: post请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B9B7B8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+[2019-04-17 10:44:08.340600] WARNING: interface_Test: 1l=1
+[2019-04-17 10:44:08.341600] WARNING: interface_Test: {'code': 1, 'result': "post请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B9B7B8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))"}
+[2019-04-17 10:44:08.345600] INFO: interface_Test: 运行时间: 2019/04/17_10:44:08
+[2019-04-17 10:44:08.346600] INFO: interface_Test: 当前模块: 写入返回值
+[2019-04-17 10:44:08.347600] INFO: interface_Test: 全部args参数参数信息: , ('C:\\1\\api_automation_test-master\\BG_api_test\\test_case_data\\case.xlsx', 2.0, "post请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B9B7B8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))")
+[2019-04-17 10:44:08.353600] INFO: interface_Test: 全部kwargs参数信息: , {}
+[2019-04-17 10:44:08.357600] INFO: interface_Test: inputdata> 参数:{"name":"132","passwd":"123456"}, url:https://127.0.0.1/login ,返回:{'code': 1, 'result': "post请求出错，出错原因:HTTPSConnectionPool(host='127.0.0.1', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003B9B7B8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))"},预期:1l=1
+[2019-04-17 10:44:08.365600] INFO: interface_Test: 失败重试中次数用完，最后结果

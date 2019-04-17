@@ -1,0 +1,4 @@
+requests
+logbook
+xlrd
+xlutils
